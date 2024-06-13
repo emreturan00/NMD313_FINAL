@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/yesterdays.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+header, footer {
+    background-color: #282828;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: rem;
+}
+
+h1 {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.tweet .author {
+    font-size: 1.5rem;
+}
+
+.tweet .content {
+    font-size: 2rem;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+section p {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.nav-link {
+    color: #fff;
+    background-color: rgb(0, 95, 204);
+    text-decoration: none;
+    padding: 20px 40px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    font-size: 1.5rem;
+}
+
+.nav-link:hover {
+    background-color: #555;
+}
+
+.section-divider, .section-divider-index {
+    position: relative;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-divider {
+    background-image: url('yesterdays.jpeg');
+}
+
+.section-divider-index {
+    background-image: url('backmain.jpeg');
+}
+
+.inline-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.tweets-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.section-divider-index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.tweet {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 70%;
+    text-align: center;
+}
+
+.tweet .author {
+    font-weight: bold;
+    color: #1da1f2;
+}
+
+.tweet .content {
+    margin-top: 5px;
+}
